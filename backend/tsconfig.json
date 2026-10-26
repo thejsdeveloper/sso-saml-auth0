@@ -1,0 +1,19 @@
+{
+  // Node runs the .ts files directly (type stripping, Node >= 22.18), so tsc is
+  // only a type checker here and never emits JS.
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    // Required for Node's type stripping: only syntax that can be erased.
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": false
+  },
+  "include": ["src"]
+}

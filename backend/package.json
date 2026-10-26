@@ -1,0 +1,27 @@
+{
+  "name": "sso-saml-backend",
+  "version": "1.0.0",
+  "description": "SAML 2.0 Service Provider (Auth0 as IdP)",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node --env-file=.env src/server.ts",
+    "dev": "node --watch --env-file=.env src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "dependencies": {
+    "@node-saml/node-saml": "^5.1.0",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/express-session": "^1.19.0",
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  }
+}
