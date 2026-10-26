@@ -22,7 +22,7 @@ Browser ──► Node/Express (localhost:3000)
 | Test user                | `demo.user@example.com`                   |
 | Password                 | Sent separately with the submission email |
 
-This is a free dev tenant with a fake test user, no real data. A video walkthrough of both flows is here: `<TODO: Loom link>`.
+This is a free dev tenant with a fake test user, no real data. Video walkthrough of both flows: [demo video (Google Drive)](https://drive.google.com/file/d/1xs5uE5EWia5TA0u5D1FTQN2wEUOGS92X/view?usp=sharing).
 
 ## Run it locally
 
